@@ -11,6 +11,7 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 import com.makotojava.learn.odot.config.AbstractApplicationConfiguration;
 
 @Configuration
+
 public class SpringBootDemoConfiguration extends AbstractApplicationConfiguration {
 
   @Override
@@ -25,5 +26,4 @@ public class SpringBootDemoConfiguration extends AbstractApplicationConfiguratio
         .build();
     return embeddedDb;
   }
-
 }
